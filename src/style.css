@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+  height: 450px;
+}
+.numero {
+  color: white;
+  font-size: 120px;
+  width: 120px;
+  margin: 50px auto;
+  text-align: center;
+}
+.iconoarriba {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  color: rgb(17, 1, 1);
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+}
+.iconoabajo {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: -15px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(180deg);
+}
+.button-new {
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+.boton {
+  width: 150px;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+}
